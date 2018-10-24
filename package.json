@@ -1,0 +1,12 @@
+{
+  "name": "simple-web-worker-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"index.html, *.css, js/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yly",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  /* background: black; */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.content {
+  background: #f2f2f2;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content label {
+  font-size: 20px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 30px;
+}
